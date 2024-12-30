@@ -1,0 +1,157 @@
+a {
+    text-decoration: none;
+    color: blue;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+a:hover {
+    background-color: #f0f0f0;
+}
+
+strong {
+    color: red;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 0 5px;
+    background-color: #f9f9f9;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+.header {
+    display: flex;
+    align-items: center; /* Vertically center logo and text */
+    justify-content: center; /* Center the whole header horizontally */
+    gap: 10px; /* Space between the logo and the text */
+    margin: 20px auto; /* Add some spacing around the header */
+}
+/* Style for the logo */
+.logo {
+    height: 50px; /* Adjust the height of the logo */
+    width: auto; /* Maintain aspect ratio */
+}
+
+/* Style for the header text */
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: red; /* Your header color */
+    text-align: center; /* Align header text */
+}
+button {
+    padding: 10px 20px;
+    background-color: red; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #701f1f;
+}
+.export{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+.login {
+    background: white;
+    padding: 30px 40px; /* Adjusted for better spacing */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Keeps the form from stretching too wide */
+    text-align: center;
+}
+.loginpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.inputloginusername {
+    padding: 8px;
+    margin: 5px;
+    width: 100%;
+}
+.inputloginpassword {
+    padding: 8px;
+    margin: 5px;
+    width: 100%;
+}
+
+.buttonlogin {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonlogin:hover {
+    background-color: #701f1f;
+}
+h2{
+    color: red;
+    margin-bottom: 30px;
+}
+.username{
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    font-size: 20px;
+}
+a{
+    background-color: red;
+    margin-left: 24px;
+    color: white;
+}
+a:hover{
+    color: white;
+    background-color: #701f1f;
+}
+.headerlogin{
+    display: flex;
+    align-items: center; /* Vertically center logo and text */
+    justify-content: center; /* Center the whole header horizontally */
+    gap: 10px; /* Space between the logo and the text */
+    margin: 20px auto;
+}
+.logoheader {
+    height: 45px; /* Adjust the height of the logo */
+    width: auto; /* Maintain aspect ratio */
+}
